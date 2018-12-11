@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <LangVersion>4</LangVersion>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Copyright>GNU GPLv3</Copyright>
+    <Description>Light and fast implementation of QuadTree.
+Backward compatibilty with C#4</Description>
+    <PackageTags>WoSS, QuadTree, Maering, C#4, .netstandard1.0, Generic</PackageTags>
+    <Authors>Maering</Authors>
+    <Company>WoSS</Company>
+    <NeutralLanguage>en</NeutralLanguage>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>WoSS_key.pfx</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageLicenseUrl>https://github.com/Maering/QuadTree/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Maering/QuadTree</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Maering/QuadTree</RepositoryUrl>
+    <DelaySign>false</DelaySign>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <PackageId>WoSS.Containers.QuadTree</PackageId>
+    <Product>WoSS.Containers.QuadTree</Product>
+    <FileVersion>1.0.0.1</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Version>1.0.1</Version>
+    <ApplicationIcon />
+    <Win32Resource />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>TRACE</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+</Project>
