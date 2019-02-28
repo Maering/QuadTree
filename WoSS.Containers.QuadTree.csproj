@@ -11,7 +11,7 @@ Backward compatibilty with C#4</Description>
     <Authors>Maering</Authors>
     <Company>WoSS</Company>
     <NeutralLanguage>en</NeutralLanguage>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>WoSS_key.pfx</AssemblyOriginatorKeyFile>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryType>GitHub</RepositoryType>
@@ -22,7 +22,7 @@ Backward compatibilty with C#4</Description>
     <PackageReleaseNotes>Initial release</PackageReleaseNotes>
     <PackageId>WoSS.Containers.QuadTree</PackageId>
     <Product>WoSS.Containers.QuadTree</Product>
-    <FileVersion>1.0.0.1</FileVersion>
+    <FileVersion>1.0.0.2</FileVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <Version>1.0.1</Version>
     <ApplicationIcon />
