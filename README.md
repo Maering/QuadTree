@@ -5,5 +5,7 @@
 ### What ?
 A fast and light implementation of a QuadTree
 
+### Documentation
+> README will be completed as soon as possible. UnitTests will also be written asap.
 
-> README will be completed in a few days
+**Currently busy with Bachelor in IT @HE-Arc**
